@@ -24,7 +24,6 @@ if (hours < 12) {
 } else if (hours >= 22) {
     console.log('доброй ночи');
 }
-
 console.log('Сегодня: ' + wekkDays[getWeekDay]);
 console.log('Текущее время: ' + time);
 console.log('До нового года осталось: ' + timeRemaining);
